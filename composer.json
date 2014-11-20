@@ -1,0 +1,16 @@
+{
+    "name": "kizilare/session",
+    "type": "library",
+    "description": "Session management",
+    "homepage": "http://kizilare.net",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kizilare\\Session\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
