@@ -23,6 +23,11 @@ Class Credentials
         $this->saveSession( $username, $password );
     }
 
+    public function setTtl( $ttl )
+    {
+        $this->ttl = $ttl;
+    }
+
     protected function saveSession( $username, $password )
     {
         $expire = time() + $this->ttl;
