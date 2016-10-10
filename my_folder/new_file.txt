@@ -1,2 +1,2 @@
 new_file
-new line
+line
